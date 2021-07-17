@@ -5,13 +5,13 @@ import com.nelly.restservice.service.PhotosService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicLong;
 
 @CrossOrigin
 @RestController
-@RequestMapping(value = "/photos")
-public class PhotosController {
+@RequestMapping(value = "/")
+public class PhotosController extends Throwable{
 
     @Autowired
     PhotosService service;
